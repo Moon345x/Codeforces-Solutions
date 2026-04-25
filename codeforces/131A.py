@@ -7,7 +7,7 @@ for i in line:
     else:
         lowers+=1
 if upers==len(line):
-    print(line[0].upper()+''.join(line[1:]).lower())
+    print(''.join(line[0:]).lower())
 elif line[0].islower() and upers==len(line)-1:
     print(line[0].upper()+''.join(line[1:]).lower())
 else:

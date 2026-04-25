@@ -6,7 +6,7 @@ def binary_search(arr, target):
     while left <= right:
         mid = (left + right) // 2
         
- 
+
         if arr[mid] <= target:
             result = mid
             left = mid + 1
@@ -17,7 +17,6 @@ def binary_search(arr, target):
 n=int(input())
 arr=list(map(int,input().split()))
 arr.sort()
-print(arr)
 q=int(input())
 for i in range(q):
     m=int(input())
